@@ -25,16 +25,16 @@ import (
 	"syscall"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/osrg/goplane/config"
-	"github.com/osrg/goplane/iptables"
-	"github.com/osrg/goplane/netlink"
+	"github.com/rirenner/goplane/config"
+	"github.com/rirenner/goplane/iptables"
+	"github.com/rirenner/goplane/netlink"
 	log "github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/syslog"
 
-	bgpapi "github.com/osrg/gobgp/api"
-	bgpconfig "github.com/osrg/gobgp/config"
-	"github.com/osrg/gobgp/packet/bgp"
-	bgpserver "github.com/osrg/gobgp/server"
+	bgpapi "github.com/rirenner/gobgp/api"
+	bgpconfig "github.com/rirenner/gobgp/config"
+	"github.com/rirenner/gobgp/packet/bgp"
+	bgpserver "github.com/rirenner/gobgp/server"
 )
 
 type Dataplaner interface {

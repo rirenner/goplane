@@ -11,5 +11,5 @@ ADD . $GOPATH/src/github.com/rirenner/goplane/
 RUN cd $GOPATH/src/github.com/rirenner/goplane && glide install
 RUN go install github.com/rirenner/goplane
 RUN go get github.com/socketplane/libovsdb
-RUN cd $GOPATH/src/github.com/rirenner/goplane/vendor/github.com/osrg/gobgp/gobgpd && go install
-RUN cd $GOPATH/src/github.com/rirenner/goplane/vendor/github.com/osrg/gobgp/gobgp && go install
+RUN cd $GOPATH/src/github.com/rirenner/goplane/vendor/github.com/rirenner/gobgp/gobgpd && go install
+RUN cd $GOPATH/src/github.com/rirenner/goplane/vendor/github.com/rirenner/gobgp/gobgp && go install
