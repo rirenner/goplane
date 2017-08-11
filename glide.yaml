@@ -1,13 +1,17 @@
 package: github.com/rirenner/goplane
 import:
 - package: github.com/sirupsen/logrus
+  version: 1.0.2
   subpackages:
   - hooks/syslog
 - package: github.com/coreos/go-iptables
+  version: v0.2.0
   subpackages:
   - iptables
 - package: github.com/jessevdk/go-flags
+  version: v1.3.0
 - package: github.com/rirenner/gobgp
+  version: v1.22
 - package: github.com/spf13/viper
 - package: golang.org/x/net
   subpackages:
