@@ -1,4 +1,4 @@
-package: github.com/osrg/goplane
+package: github.com/rirenner/goplane
 import:
 - package: github.com/sirupsen/logrus
   subpackages:
@@ -7,8 +7,7 @@ import:
   subpackages:
   - iptables
 - package: github.com/jessevdk/go-flags
-- package: github.com/osrg/gobgp
-  version: 7f95cdc871e21d194ebfaf9c10d0596f17ff2971
+- package: github.com/rirenner/gobgp
 - package: github.com/spf13/viper
 - package: golang.org/x/net
   subpackages:
