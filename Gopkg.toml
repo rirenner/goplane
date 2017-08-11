@@ -23,17 +23,11 @@
 
 [[constraint]]
   name = "github.com/coreos/go-iptables"
+  version = "0.2.0"
 
 [[constraint]]
   name = "github.com/jessevdk/go-flags"
-
-[[constraint]]
-  name = "github.com/osrg/gobgp"
-  revision = "7f95cdc871e21d194ebfaf9c10d0596f17ff2971"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/osrg/goplane"
+  version = "1.3.0"
 
 [[constraint]]
   name = "github.com/rirenner/gobgp"
@@ -41,6 +35,7 @@
 
 [[constraint]]
   name = "github.com/sirupsen/logrus"
+  version = "1.0.2"
 
 [[constraint]]
   name = "github.com/spf13/viper"
